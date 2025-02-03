@@ -1,4 +1,4 @@
-﻿{
+{
     "name": "concaveit/upay-laravel",
     "description": "Laravel package for integrating with the Upay Payment Gateway",
     "type": "library",
