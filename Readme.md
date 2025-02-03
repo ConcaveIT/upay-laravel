@@ -25,10 +25,10 @@ This package provides a convenient integration with the Upay Payment Gateway for
    Run the following command in your Laravel application's root directory:
 
    ```bash
-   composer require your-vendor/upay-laravel
+   composer require concaveit/upay-laravel
    ```
 
-   *Replace `your-vendor` with your actual vendor name.*
+   *Replace `concaveit` with your actual vendor name.*
 
 2. **Publish the Configuration File**
 
