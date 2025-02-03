@@ -120,7 +120,7 @@ try {
 You can also inject the Upay service directly into your classes. For example, in a controller:
 
 ```php
-use YourVendor\Upay\Upay;
+use Concaveit\Upay\Upay;
 
 class PaymentController extends Controller
 {
