@@ -1,0 +1,27 @@
+﻿{
+    "name": "concaveit/upay-laravel",
+    "description": "Laravel package for integrating with the Upay Payment Gateway",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Concaveit\\Upay\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Concaveit\\Upay\\UpayServiceProvider"
+            ],
+            "aliases": {
+                "Upay": "Concaveit\\Upay\\Facades\\Upay"
+            }
+        }
+    }
+}
+
