@@ -1,22 +1,7 @@
-Below is a single **README.md** file that contains all the instructions, including how to publish the configuration file and set your environment variables.
-
----
-
-```markdown
 # Upay Laravel Package
 
 This package provides a convenient integration with the Upay Payment Gateway for your Laravel applications. With this package, you can authenticate your merchant, initialize payments, check payment statuses (both single and bulk), and process bulk refunds—all through a simple API.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-  - [Using the Facade](#using-the-facade)
-  - [Using Dependency Injection](#using-dependency-injection)
-- [Available Methods](#available-methods)
-- [File Structure](#file-structure)
-- [License](#license)
 
 ## Installation
 
@@ -179,12 +164,3 @@ upay-laravel/
     ├── Upay.php
     └── UpayServiceProvider.php
 ```
-
-## License
-
-This package is open-sourced software licensed under the [MIT license](LICENSE).
-```
-
----
-
-This single **README.md** file includes all the necessary instructions for installation, configuration, and usage of the Upay Laravel package.
